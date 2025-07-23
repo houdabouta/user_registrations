@@ -1,4 +1,4 @@
-# reporting
+# user_registrations
 This repository contains two Python scripts to process and filter historical data. The scripts fetch users authentication details, save it to an Excel file (.xlsx format), and filter the data based on specified criteria.
 
 ## Prerequisites
@@ -48,6 +48,4 @@ This script filters the data in the generated Excel file based on `authDate` and
 
 #### Usage
 
-    ```
     python filter_data.py --input_file results/history_data.xlsx --output_file results/filtered_data.xlsx --start_date YYYY-MM-DD --end_date YYYY-MM-DD --location your_location_id
-    ```
