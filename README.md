@@ -8,20 +8,14 @@ This repository contains two Python scripts to process and filter historical dat
 
 ## Setup
 
-1. **Clone/Download the repository then move to `reporting` directory **
-
-    ```
-    cd reporting
-    ```
-
-2. **Create a virtual environment and activate it**
+1. **Within the root folder, reate a virtual environment and activate it**
 
     ```
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
-3. **Install the required packages**
+2. **Install the required packages**
 
     ```
     pip install -r requirements.txt
@@ -35,7 +29,7 @@ This script fetches historical data from a given API endpoint, saves it to an Ex
 
 #### Usage
 
-1. **Set up the environment variables in a `.env` file that you should create in `./reporting/` folder**
+1. **Set up the environment variables in a `.env` file that you should create in the root folder**
 
     ```
     REFRESH_TOKEN=your_refresh_token
